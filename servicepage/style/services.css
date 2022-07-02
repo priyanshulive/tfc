@@ -1,15 +1,21 @@
 * {
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Mitr', sans-serif;
+    
 }
 
 html{
     box-sizing: border-box;
+    
+        /* position:relative;
+        height:100%; */
+    
 }
 body {
     background-image: linear-gradient(to bottom right, pink, skyblue );
     font-family: 'Mitr', sans-serif;
-    z-index: -1;
 }
 
 
@@ -195,13 +201,14 @@ margin-left: 73px;
 }
 
 #box1::after {
-    content: "Find Professionals & Consultants";
+    content: "Find Professionals";
     margin-left: -43px;
     display: inline-block;
     width: 142px;
     margin-top: -8px;
     transform: translateX(14px);
     font-size: 15px;
+    cursor:auto;
 }
 
 #box2::after {
@@ -211,6 +218,7 @@ margin-left: 73px;
     width: 170px;
     transform: translateX(-20px);
     font-size: 16px;
+    cursor:auto;
 }
 
 #box3::after {
@@ -220,6 +228,7 @@ margin-left: 73px;
     width: 170px;
     transform: translateX(-20px);
     font-size: 17px;
+    cursor:auto;
 }
 #box4::after {
     content: "Lead-Generation";
@@ -227,6 +236,7 @@ margin-left: 73px;
     width: 170px;
     transform: translateX(-30px);
     font-size: 16px;
+    cursor:auto;
 }
 #box5::after {
     content: "B2B & B2C";
@@ -234,6 +244,7 @@ margin-left: 73px;
     width: 170px;
     transform: translateX(-15px);
     font-size: 17px;
+    cursor:auto;
 }
 #box6::after{
     content: "Furnitures";
@@ -241,6 +252,7 @@ margin-left: 73px;
     width: 100px;
     transform: translateX(-5px);
     font-size: 17px;
+    cursor:auto;
 }
 #box7::after{
     content: "Appliances";
@@ -248,18 +260,21 @@ margin-left: 73px;
     width: 140px;
     transform: translateX(-8px);
     font-size: 16px;
+    cursor:auto;
 }
 #box8::after{
     content: "Clothings";
     display: inline-block;
     width: 95px;
     font-size: 16px;
+    cursor:auto;
 }
 #box9::after{
     content: "Groceries";
     display: inline-block;
     width: 95px;
     font-size: 16px;
+    cursor:auto;
 }
 #box10::after{
     content: "Medical Supplies";
@@ -267,42 +282,7 @@ margin-left: 73px;
     width: 160px;
     transform: translateX(-27px);
     font-size: 16px;
-}
-#box11::after{
-    content: "Fern & Petals";
-    display: inline-block;
-    width: 115px;
-    transform: translateX(-19px);
-    font-size: 16px;
-}
-#box12::after{
-    content: "Gift Items";
-    display: inline-block;
-    width: 100px;
-    font-size: 16px;
-    transform: translateX(-6px);
-}
-#box13::after{
-    content: "Office Space";
-    display: inline-block;
-    width: 150px;
-    transform: translateX(-12px);
-    font-size: 15px;
-}
-#box14::after{
-    content: "Medical Supplies";
-    display: inline-block;
-    width: 160px;
-    transform: translateX(-27px);
-    font-size: 16px;
-}
-
-#box15::after{
-    content: "Show More";
-    display: inline-block;
-    width: 100px;
-    transform: translateX(-12px);
-    font-size: 17px;
+    cursor:auto;
 }
 
 
@@ -377,16 +357,15 @@ margin-left: 73px;
 
 .titletext h3{
     text-align: center;
-    font-size:20px;
+    font-size:16px;
     font-weight: 600;
     margin-top: 10px;
     margin-bottom: 15px;
+    height:40px;
 }
-#socialmedia{
-    font-size: 16px;
-}
-#shoppay{
-    font-size:16px;
+
+#gift{
+    font-size:20px;
 }
 
 #rent{
@@ -446,3 +425,6 @@ a{
     
 }
 /* previous page button css ends here  */
+
+
+

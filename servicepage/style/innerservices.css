@@ -1,0 +1,211 @@
+html,body{
+    position:relative;
+    height:100%;
+}
+
+body{
+    margin:0px;
+    padding:0px;
+    background-color: rgba(158, 149, 255, 0.5);
+    font-family: 'Mitr', sans-serif;
+    overflow-x: hidden;
+}
+.swiper-slide{
+    width:250px !important;
+}
+
+.slider-box{
+    margin:20px;
+    height:400px;
+    width:350px;
+    position: relative;
+    background-color: white;
+    border-radius: 5px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px 20px 10px 10px;
+    box-shadow:3px 3px 5px  rgba(78, 85, 98, 0.4) , -3px -3px 7px rgba(255, 255, 255, 0.6);  
+}
+
+.slider-box a{
+    text-decoration:none;
+    text-align:center;
+}
+
+.img-box{
+    height: 175px;
+}
+
+.img-box img{   
+    position: absolute;
+    top: 0;
+    left: 0;
+    height:auto;
+    max-width: 100%;
+    max-height: 100%;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.time{
+    position: absolute;
+    top:0px;
+    right:20px;
+    color:royalblue;
+}
+
+.detail{
+    position:relative;
+    display:flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    font-size: 23px;
+    top: -39px;
+    line-height: 35px;
+    margin-top: -65px;
+    font-weight: 600;
+}
+
+.price{
+    color: #585858;
+    line-height: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.cart{
+    position:absolute;
+    bottom:0px;
+    height:45px;
+    background-color:#fa9048;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    cursor:pointer;
+}
+
+.cart a{
+    color:white;
+}
+
+.slider-box:hover{
+    box-shadow: 2px 2px 12px rgba(47,47,47,0.40);
+}
+.slider-box:hover .img-box img{
+    transform: scale(1.07);
+    transition:all ease 0.3s;
+}
+.cart:hover{
+    transform: scale(1.1);
+    background-color: #fa9048;
+    box-shadow: 2px 2px 12px rgba(47,47,47,0.40);
+    transition:all ease 0.1s;
+}
+
+.heading{
+    font-size:2rem;
+    margin: -10px -2px -60px 30px;
+
+}
+
+.heading:hover{
+    text-shadow:4px 4px 10px rgba(0, 0, 0, 0.5), -4px -4px 10px  white;
+    transition-duration: 1s;
+    transform: translate3d(5px,5px);
+}
+/* Navbar css */
+.navbar{
+    background-color: rgba(255, 255, 255, 0.4);
+    border:1px solid rgba(255, 255, 255, 0.25);
+    border-radius: 40px;
+    padding: 0px;
+    margin-top: 8px;
+}
+
+#logo {
+    margin-left:  16px;
+    width: 70px;
+    height: 64px;
+    padding: 5px 0 3px 10px;
+}
+
+#cart{
+    position: absolute;
+    right: 250px;
+    top: 3px;
+
+}
+
+#tfc{
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+    margin-left: 40px;
+    border-radius: 77px;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    font-size: 34px;
+    margin-top: -60px;
+    box-shadow: 3px 3px 5px  rgba(78, 85, 98, 0.4) , -3px -3px 7px rgba(255, 255, 255, 0.6);     
+    cursor:default;
+    position: absolute;
+    background-color: pink;
+    background-image: linear-gradient(45deg,  rgb(83, 186, 226),rgb(252, 122, 144));
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+    left:54px;
+    font-family: 'Lobster', cursive;
+    
+}
+
+#tfc:hover{
+    box-shadow:inset 3px 3px 5px  rgba(78, 85, 98, 0.4) ,inset -3px -3px 7px rgba(255, 255, 255, 0.6);     
+    transition-duration: 1s;
+    
+}
+#searchbox{
+    position:absolute;
+    right:10px;
+    font-size: 18px;
+    margin:15px 18px 20px 0px;
+    padding:9px 0px;
+    border-radius: 30px;
+    border:transparent;
+    background-color: transparent;
+    box-shadow:inset 3px 3px 5px  rgba(78, 85, 98, 0.4) ,inset -3px -3px 7px rgba(255, 255, 255, 0.6);     
+   
+}
+
+/*========================
+      navbar ends here  
+========================*/
+
+.shortdesc{
+    width:100%;
+    position: absolute;
+    margin-top: 210px;
+}
+
+.shortpara{
+    text-align: left;
+    line-height:2px;
+    margin-top: 0px;
+    margin-left:6px;
+
+
+}
+.shortpara img{
+    height:16px;
+    width:16px;
+    margin-top: -10px;
+    vertical-align: top;
+}
